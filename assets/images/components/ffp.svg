@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ffpGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="100%" stop-color="#CA8A04"/>
+    </linearGradient>
+    <filter id="shadowFfp" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" rx="16" fill="#FEFCE8"/>
+  <g transform="translate(100, 25)" filter="url(#shadowFfp)">
+    <rect x="0" y="20" width="120" height="170" rx="20" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+    <!-- Golden Amber Fluid -->
+    <path d="M 0 65 Q 30 60, 60 65 T 120 65 L 120 170 Q 120 190, 100 190 L 20 190 Q 0 190, 0 170 Z" fill="url(#ffpGrad)"/>
+    <rect x="45" y="10" width="30" height="15" rx="3" fill="#E2E8F0"/>
+    <circle cx="60" cy="5" r="4" fill="#CA8A04"/>
+    <rect x="15" y="40" width="90" height="50" rx="6" fill="#FFFFFF" opacity="0.95"/>
+    <text x="60" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="bold" fill="#854D0E" text-anchor="middle">FFP (Fresh Plasma)</text>
+    <text x="60" y="72" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748B" text-anchor="middle">Store: &#8804; -30&#176;C</text>
+    <text x="60" y="82" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748B" text-anchor="middle">Shelf-life: up to 1 Year</text>
+  </g>
+  <!-- Snowflake / Cold Chain Accents -->
+  <circle cx="50" cy="70" r="14" fill="#FACC15" opacity="0.2"/>
+  <circle cx="270" cy="150" r="20" fill="#FACC15" opacity="0.25"/>
+</svg>

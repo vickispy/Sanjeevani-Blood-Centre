@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="c3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#c3)"/>
+  <rect x="50" y="50" width="500" height="300" rx="16" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/>
+  <circle cx="300" cy="150" r="44" fill="#2A9D8F"/>
+  <!-- Checkmark shield -->
+  <path d="M290 150 L297 157 L312 142" stroke="#FFFFFF" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <text x="300" y="230" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Laboratory &amp; Cold-Chain Assurance</text>
+  <text x="300" y="258" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#94A3B8" text-anchor="middle">Safe Transport, Component Separation &amp; Strict Quality Controls</text>
+  <rect x="235" y="280" width="130" height="28" rx="14" fill="rgba(42,157,143,0.3)"/>
+  <text x="300" y="298" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#E8F6F4" text-anchor="middle">QUALITY ASSURED</text>
+</svg>

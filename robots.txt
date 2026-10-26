@@ -1,0 +1,5 @@
+# Robots.txt for Sanjeevani Blood Centre, Pune, Maharashtra
+User-agent: *
+Allow: /
+
+Sitemap: https://sanjeevanibloodcentre.org/sitemap.xml

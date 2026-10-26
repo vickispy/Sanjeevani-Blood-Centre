@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Sanjeevani Blood Centre | Pune, Maharashtra</title>
+  <meta name="description" content="Learn about Sanjeevani Blood Centre, founded in 2019 in Pune. Dedicated to voluntary blood donation, patient care, Thalassemia support, and the highest standards of clinical safety.">
+  <link rel="canonical" href="https://sanjeevanibloodcentre.org/about.html">
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/interactive.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Top Utility Bar -->
+  <aside class="top-bar" aria-label="Official announcements and emergency contact">
+    <div class="container-wide top-bar-inner">
+      <div class="top-bar-left">
+        <span class="top-bar-tag" data-i18n="top_regulatory">Licence: BBF28C2024MH000016</span>
+        <span class="top-bar-item">
+          <i data-lucide="map-pin" style="width: 14px; height: 14px;"></i>
+          <span data-i18n="top_location">Bhosari, Pune – 411039</span>
+        </span>
+        <span class="top-bar-item">
+          <i data-lucide="phone-call" style="width: 14px; height: 14px;"></i>
+          <a href="tel:+917756873333" data-i18n="top_helpline">+91 77568 73333</a>
+        </span>
+      </div>
+      <div class="top-bar-right">
+        <!-- Multilingual Language Selector -->
+        <div class="lang-selector">
+          <button type="button" class="lang-btn" id="langSelectorBtn" aria-haspopup="listbox" aria-expanded="false" aria-label="Select Language">
+            <i data-lucide="globe" style="width: 13px; height: 13px;"></i>
+            <span id="currentLangLabel">English</span>
+            <i data-lucide="chevron-down" style="width: 12px; height: 12px;"></i>
+          </button>
+          <div class="lang-dropdown" id="langDropdown" role="listbox">
+            <button type="button" class="lang-option active" data-lang="en" role="option" aria-selected="true">
+              <span>English</span>
+              <i data-lucide="check" style="width: 14px; height: 14px;"></i>
+            </button>
+            <button type="button" class="lang-option" data-lang="mr" role="option" aria-selected="false">
+              <span>मराठी (Marathi)</span>
+            </button>
+            <button type="button" class="lang-option" data-lang="hi" role="option" aria-selected="false">
+              <span>हिंदी (Hindi)</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main Site Header -->
+  <header class="site-header" role="banner">
+    <div class="container-wide header-inner">
+      <a href="index.html" class="site-brand" aria-label="Sanjeevani Blood Centre Home">
+        <img src="assets/images/logo/sanjeevani-logo.png" alt="Sanjeevani Blood Centre Logo" class="site-logo">
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="main-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link" data-i18n="nav_home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link" data-i18n="nav_about">About Us</a>
+          </li>
+
+          <!-- Donate Blood Dropdown -->
+          <li class="nav-item nav-item-dropdown">
+            <a href="donate-blood.html" class="nav-link">
+              <span data-i18n="nav_donate">Donate Blood</span>
+              <i data-lucide="chevron-down" class="nav-chevron"></i>
+            </a>
+            <div class="dropdown-menu" role="menu">
+              <a href="donate-blood.html" class="dropdown-link" role="menuitem">
+                <div class="dropdown-link-icon"><i data-lucide="heart" style="width: 16px; height: 16px;"></i></div>
+                <div class="dropdown-link-text">
+                  <span class="dropdown-link-title">Donation Guide</span>
+                  <span class="dropdown-link-desc">5-step journey &amp; prep</span>
+                </div>
+              </a>
+              <a href="donor-safety.html" class="dropdown-link" role="menuitem">
+                <div class="dropdown-link-icon"><i data-lucide="shield-check" style="width: 16px; height: 16px;"></i></div>
+                <div class="dropdown-link-text">
+                  <span class="dropdown-link-title" data-i18n="nav_safety">Donor Safety</span>
+                  <span class="dropdown-link-desc">Sterile kits &amp; care</span>
+                </div>
+              </a>
+            </div>
+          </li>
+
+          <!-- Services Dropdown -->
+          <li class="nav-item nav-item-dropdown">
+            <a href="services.html" class="nav-link">
+              <span data-i18n="nav_services">Our Services</span>
+              <i data-lucide="chevron-down" class="nav-chevron"></i>
+            </a>
+            <div class="dropdown-menu" role="menu">
+              <a href="services.html" class="dropdown-link" role="menuitem">
+                <div class="dropdown-link-icon"><i data-lucide="stethoscope" style="width: 16px; height: 16px;"></i></div>
+                <div class="dropdown-link-text">
+                  <span class="dropdown-link-title">Clinical Services</span>
+                  <span class="dropdown-link-desc">Collection &amp; lab testing</span>
+                </div>
+              </a>
+              <a href="blood-components.html" class="dropdown-link" role="menuitem">
+                <div class="dropdown-link-icon"><i data-lucide="layers" style="width: 16px; height: 16px;"></i></div>
+                <div class="dropdown-link-text">
+                  <span class="dropdown-link-title" data-i18n="nav_components">Blood Components</span>
+                  <span class="dropdown-link-desc">PRBC, FFP, Platelets, Cryo</span>
+                </div>
+              </a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a href="blood-donation-camps.html" class="nav-link" data-i18n="nav_camps">Camps</a>
+          </li>
+          <li class="nav-item">
+            <a href="our-impact.html" class="nav-link" data-i18n="nav_impact">Our Impact</a>
+          </li>
+
+          <!-- Media Dropdown -->
+          <li class="nav-item nav-item-dropdown">
+            <a href="news.html" class="nav-link">
+              <span data-i18n="nav_media">Media</span>
+              <i data-lucide="chevron-down" class="nav-chevron"></i>
+            </a>
+            <div class="dropdown-menu" role="menu">
+              <a href="news.html" class="dropdown-link" role="menuitem">
+                <div class="dropdown-link-icon"><i data-lucide="newspaper" style="width: 16px; height: 16px;"></i></div>
+                <div class="dropdown-link-text">
+                  <span class="dropdown-link-title" data-i18n="nav_news">News &amp; Campaigns</span>
+                  <span class="dropdown-link-desc">Latest drives &amp; updates</span>
+                </div>
+              </a>
+              <a href="gallery.html" class="dropdown-link" role="menuitem">
+                <div class="dropdown-link-icon"><i data-lucide="image" style="width: 16px; height: 16px;"></i></div>
+                <div class="dropdown-link-text">
+                  <span class="dropdown-link-title" data-i18n="nav_gallery">Photos &amp; Videos</span>
+                  <span class="dropdown-link-desc">Camp photo retrospectives</span>
+                </div>
+              </a>
+              <a href="faqs.html" class="dropdown-link" role="menuitem">
+                <div class="dropdown-link-icon"><i data-lucide="help-circle" style="width: 16px; height: 16px;"></i></div>
+                <div class="dropdown-link-text">
+                  <span class="dropdown-link-title" data-i18n="nav_faqs">Donor FAQs</span>
+                  <span class="dropdown-link-desc">Common questions answered</span>
+                </div>
+              </a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link" data-i18n="nav_contact">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+            <!-- Header Action Group -->
+      <div class="header-actions">
+        <a href="blood-donation-camps.html" class="btn btn-outline btn-sm btn-header-camp">
+          <span data-i18n="btn_organise_camp">Organise Camp</span>
+        </a>
+        <a href="donate-blood.html" class="btn btn-primary btn-sm btn-header-donate">
+          <i data-lucide="heart" style="width: 14px; height: 14px;"></i>
+          <span data-i18n="btn_donate_now">Donate Blood</span>
+        </a>
+        <button type="button" class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Open mobile navigation menu" aria-expanded="false">
+          <i data-lucide="menu" style="width: 22px; height: 22px;"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Overlay -->
+  <div class="mobile-drawer-overlay" id="mobileDrawerOverlay" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+    <div class="mobile-drawer">
+      <div class="mobile-drawer-header">
+        <img src="assets/images/logo/sanjeevani-logo.png" alt="Sanjeevani Blood Centre" class="mobile-drawer-logo">
+        <button type="button" class="mobile-drawer-close" id="mobileNavClose" aria-label="Close navigation menu">
+          <i data-lucide="x" style="width: 24px; height: 24px;"></i>
+        </button>
+      </div>
+      <nav class="mobile-drawer-nav">
+        <ul class="mobile-nav-list">
+          <li><a href="index.html" class="mobile-nav-link" data-i18n="nav_home">Home</a></li>
+          <li><a href="about.html" class="mobile-nav-link active" data-i18n="nav_about">About Us</a></li>
+          <li><a href="donate-blood.html" class="mobile-nav-link" data-i18n="nav_donate">Donate Blood</a></li>
+          <li><a href="donor-safety.html" class="mobile-nav-link" data-i18n="nav_safety">Donor Safety</a></li>
+          <li><a href="services.html" class="mobile-nav-link" data-i18n="nav_services">Our Services</a></li>
+          <li><a href="blood-components.html" class="mobile-nav-link" data-i18n="nav_components">Blood Components</a></li>
+          <li><a href="blood-donation-camps.html" class="mobile-nav-link" data-i18n="nav_camps">Blood Donation Camps</a></li>
+          <li><a href="our-impact.html" class="mobile-nav-link" data-i18n="nav_impact">Our Impact</a></li>
+          <li><a href="news.html" class="mobile-nav-link" data-i18n="nav_news">News &amp; Campaigns</a></li>
+          <li><a href="gallery.html" class="mobile-nav-link" data-i18n="nav_gallery">Photos &amp; Videos</a></li>
+          <li><a href="faqs.html" class="mobile-nav-link" data-i18n="nav_faqs">FAQs</a></li>
+          <li><a href="contact.html" class="mobile-nav-link" data-i18n="nav_contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-drawer-footer">
+        <a href="donate-blood.html" class="btn btn-primary btn-full" data-i18n="btn_donate_now">Donate Blood</a>
+        <a href="tel:+917756873333" class="btn btn-outline btn-full">
+          <i data-lucide="phone" style="width: 16px; height: 16px;"></i>
+          <span>Call: +91 77568 73333</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    
+    <!-- Page Hero Banner -->
+    <header class="page-hero">
+      <div class="container">
+        <div class="page-hero-inner">
+          <nav class="page-breadcrumbs" aria-label="Breadcrumb">
+            <a href="index.html">Home</a>
+            <span>/</span>
+            <span aria-current="page">About Us</span>
+          </nav>
+          <h1>About Sanjeevani Blood Centre</h1>
+          <p class="page-hero-lead">
+            Founded in 2019 in Bhosari, Pune, driven by our guiding ethos — "The Greatest Noble Aim" — to bring reliable, safe, and compassionate blood transfusion support to every patient in need.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Section 1: Institutional Overview -->
+    <section class="section">
+      <div class="container">
+        <div style="display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 3rem; align-items: center;" class="hero-grid">
+          <div>
+            <span class="section-eyebrow">Our Origins &amp; Philosophy</span>
+            <h2 class="section-title">Rooted in Pune, Dedicated to Saving Lives</h2>
+            <p style="font-size: 1.05rem; line-height: var(--line-height-relaxed); color: var(--color-text-body); margin-bottom: 1.25rem;">
+              Sanjeevani Blood Centre was established in 2019 in Bhosari, Pune, Maharashtra. Recognizing that access to safe blood and blood components is a fundamental pillar of emergency medicine, oncological care, maternal health, and chronic illness management, our founders set out to build an institution defined by clinical excellence, complete transparency, and donor comfort.
+            </p>
+            <p style="line-height: var(--line-height-relaxed); color: var(--color-text-muted); margin-bottom: 1.5rem;">
+              The name <em>Sanjeevani</em> is inspired by the timeless symbol of restorative life. Our motto, <strong>"The Greatest Noble Aim,"</strong> reminds our staff and volunteer network that voluntary blood donation represents humanity at its most selfless: an anonymous gift from one human being to preserve the life of another.
+            </p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <a href="donate-blood.html" class="btn btn-primary">Join as a Voluntary Donor</a>
+              <a href="services.html" class="btn btn-outline">Our Clinical Services</a>
+            </div>
+          </div>
+
+          <div style="background: #FFFFFF; border: 1px solid var(--color-border); border-radius: var(--radius-xl); padding: 2rem; box-shadow: var(--shadow-md);">
+            <h3 style="color: var(--color-secondary-dark); margin-bottom: 1rem; font-size: 1.25rem;">Key Milestones &amp; Framework</h3>
+            <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+              <div style="display: flex; gap: 1rem;">
+                <div style="width: 40px; height: 40px; border-radius: 50%; background: var(--color-primary-subtle); color: var(--color-primary); display: flex; align-items: center; justify-content: center; font-weight: bold; flex-shrink: 0;">2019</div>
+                <div>
+                  <h4 style="font-size: 1rem; margin-bottom: 0.2rem;">Establishment in Bhosari, Pune</h4>
+                  <p style="font-size: 0.875rem; color: var(--color-text-muted); margin: 0;">Inaugurated at Mahalaxmi Tower to serve Pune and Pimpri-Chinchwad municipal areas.</p>
+                </div>
+              </div>
+
+              <div style="display: flex; gap: 1rem;">
+                <div style="width: 40px; height: 40px; border-radius: 50%; background: var(--color-secondary-subtle); color: var(--color-secondary); display: flex; align-items: center; justify-content: center; font-weight: bold; flex-shrink: 0;">FDA</div>
+                <div>
+                  <h4 style="font-size: 1rem; margin-bottom: 0.2rem;">Statutory Licensing &amp; Approvals</h4>
+                  <p style="font-size: 0.875rem; color: var(--color-text-muted); margin: 0;">Licence No: BBF28C2024MH000016 with FDA Amendment PCL2025MH00008.</p>
+                </div>
+              </div>
+
+              <div style="display: flex; gap: 1rem;">
+                <div style="width: 40px; height: 40px; border-radius: 50%; background: var(--color-accent-subtle); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-weight: bold; flex-shrink: 0;">Free</div>
+                <div>
+                  <h4 style="font-size: 1rem; margin-bottom: 0.2rem;">Thalassemia &amp; Sickle Cell Support</h4>
+                  <p style="font-size: 0.875rem; color: var(--color-text-muted); margin: 0;">Reported provision of &gt;200 units monthly free of charge to vulnerable patients.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Mission, Vision & Core Values -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Our Guiding Pillars</span>
+          <h2 class="section-title">Mission, Vision &amp; Organisational Values</h2>
+          <p class="section-subtitle">
+            Every operational protocol, donor interaction, and component distribution reflects our uncompromising commitment to healthcare ethics.
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+          <!-- Mission -->
+          <div class="card">
+            <div class="card-icon"><i data-lucide="compass" style="width: 26px; height: 26px;"></i></div>
+            <h3 class="card-title">Our Mission</h3>
+            <p class="card-text" style="line-height: var(--line-height-relaxed);">
+              To mobilize, inspire, and care for voluntary blood donors; to separate whole blood into high-purity therapeutic components with uncompromising quality controls; and to ensure safe, rapid, and equitable availability of blood products to hospitals, clinicians, and patients across Maharashtra.
+            </p>
+          </div>
+
+          <!-- Vision -->
+          <div class="card">
+            <div class="card-icon"><i data-lucide="eye" style="width: 26px; height: 26px;"></i></div>
+            <h3 class="card-title">Our Vision</h3>
+            <p class="card-text" style="line-height: var(--line-height-relaxed);">
+              To be recognized as a premier center of excellence in transfusion medicine, voluntary donor engagement, and humanitarian support in Western India — where no patient suffers due to the non-availability of compatible, screened blood.
+            </p>
+          </div>
+
+          <!-- Core Values -->
+          <div class="card">
+            <div class="card-icon"><i data-lucide="award" style="width: 26px; height: 26px;"></i></div>
+            <h3 class="card-title">Core Institutional Values</h3>
+            <ul style="font-size: 0.95rem; color: var(--color-text-body); display: flex; flex-direction: column; gap: 0.6rem; margin-top: 0.5rem;">
+              <li><strong>Compassion:</strong> Caring with respect for every donor and patient.</li>
+              <li><strong>Safety First:</strong> 100% sterile, single-use phlebotomy kits.</li>
+              <li><strong>Integrity:</strong> Honest reporting, regulatory compliance, zero commercialization.</li>
+              <li><strong>Community:</strong> Collaborating with corporations, colleges, and civic groups.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Leadership (Framed with strict factual fidelity) -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Institutional Stewardship</span>
+          <h2 class="section-title">Leadership &amp; Management</h2>
+          <p class="section-subtitle">
+            Guided by experienced professionals dedicated to community health and transfusion service management.
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 800px; margin: 0 auto;">
+          <div class="card" style="text-align: center;">
+            <div style="width: 80px; height: 80px; border-radius: 50%; background: var(--color-primary-subtle); color: var(--color-primary); display: flex; align-items: center; justify-content: center; margin: 0 auto 1.25rem;">
+              <i data-lucide="user" style="width: 40px; height: 40px;"></i>
+            </div>
+            <h3 style="font-size: 1.25rem; margin-bottom: 0.35rem;">Mr. Ravindra Phadtare</h3>
+            <span class="badge badge-navy" style="margin-bottom: 1rem;">Leadership &amp; Administration</span>
+            <p class="card-text" style="font-size: 0.9rem;">
+              Overseeing institutional governance, strategic vision, regulatory compliance, and community outreach for Sanjeevani Blood Centre.
+            </p>
+          </div>
+
+          <div class="card" style="text-align: center;">
+            <div style="width: 80px; height: 80px; border-radius: 50%; background: var(--color-secondary-subtle); color: var(--color-secondary); display: flex; align-items: center; justify-content: center; margin: 0 auto 1.25rem;">
+              <i data-lucide="user-check" style="width: 40px; height: 40px;"></i>
+            </div>
+            <h3 style="font-size: 1.25rem; margin-bottom: 0.35rem;">Mr. Prashant Mohan</h3>
+            <span class="badge badge-navy" style="margin-bottom: 1rem;">Leadership &amp; Operations</span>
+            <p class="card-text" style="font-size: 0.9rem;">
+              Directing day-to-day blood centre operations, mobile camp logistics, cold chain management, and clinical team coordination.
+            </p>
+          </div>
+        </div>
+
+        <div class="verification-callout" style="max-width: 800px; margin: 2rem auto 0;">
+          <i data-lucide="info" style="width: 18px; height: 18px;"></i>
+          <span>Leadership profiles presented according to the supplied company reference document. Formal career biographies and qualifications will be updated following internal administrative review.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Regulatory Transparency -->
+    <section class="section section-alt">
+      <div class="container-narrow">
+        <div style="background: #FFFFFF; border: 1px solid var(--color-border); border-radius: var(--radius-xl); padding: 2.5rem; box-shadow: var(--shadow-md);">
+          <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+            <i data-lucide="file-check-2" style="color: var(--color-primary); width: 28px; height: 28px;"></i>
+            <h3 style="font-size: 1.4rem; color: var(--color-secondary-dark); margin: 0;">Official Licensing &amp; Regulatory Identifiers</h3>
+          </div>
+          <p style="color: var(--color-text-body); line-height: var(--line-height-relaxed); margin-bottom: 1.5rem;">
+            Sanjeevani Blood Centre strictly complies with the statutory provisions of the Drugs and Cosmetics Act (1940) and Rules (1945), operating under the licensing oversight of the Food and Drug Administration (FDA), Maharashtra.
+          </p>
+
+          <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+            <tbody>
+              <tr style="border-bottom: 1px solid var(--color-border);">
+                <td style="padding: 0.75rem 0; font-weight: 600; color: var(--color-text-main);">Blood Centre Licence Number:</td>
+                <td style="padding: 0.75rem 0; font-family: monospace; color: var(--color-primary); font-weight: bold;">BBF28C2024MH000016</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--color-border);">
+                <td style="padding: 0.75rem 0; font-weight: 600; color: var(--color-text-main);">FDA Amendment Reference:</td>
+                <td style="padding: 0.75rem 0; font-family: monospace; color: var(--color-text-body);">PCL2025MH00008</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--color-border);">
+                <td style="padding: 0.75rem 0; font-weight: 600; color: var(--color-text-main);">State Application Reference:</td>
+                <td style="padding: 0.75rem 0; font-family: monospace; color: var(--color-text-body);">MH/PA/2025/00059</td>
+              </tr>
+              <tr>
+                <td style="padding: 0.75rem 0; font-weight: 600; color: var(--color-text-main);">Effective Date of Documentation:</td>
+                <td style="padding: 0.75rem 0; color: var(--color-text-body);">4 November 2025</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Complete Site Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/images/logo/sanjeevani-logo.png" alt="Sanjeevani Blood Centre" class="footer-logo">
+          <div class="footer-slogan" data-i18n="slogan">"The Greatest Noble Aim"</div>
+          <p class="footer-desc" data-i18n="footer_desc">
+            Sanjeevani Blood Centre is a dedicated blood facility in Bhosari, Pune, dedicated to voluntary blood donation, patient care, and community health.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading" data-i18n="footer_quick_links">Quick Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+            <li><a href="about.html" data-i18n="nav_about">About Us</a></li>
+            <li><a href="donate-blood.html" data-i18n="nav_donate">Donate Blood</a></li>
+            <li><a href="donor-safety.html" data-i18n="nav_safety">Donor Safety</a></li>
+            <li><a href="blood-donation-camps.html" data-i18n="nav_camps">Camps</a></li>
+            <li><a href="our-impact.html" data-i18n="nav_impact">Our Impact</a></li>
+            <li><a href="faqs.html" data-i18n="nav_faqs">FAQs</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading" data-i18n="footer_services">Services &amp; Components</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">Blood Collection</a></li>
+            <li><a href="blood-components.html">PRBC (Red Blood Cells)</a></li>
+            <li><a href="blood-components.html">Fresh Frozen Plasma (FFP)</a></li>
+            <li><a href="blood-components.html">Platelets (RDP / SDP)</a></li>
+            <li><a href="blood-components.html">Cryoprecipitate (CRYO)</a></li>
+            <li><a href="services.html">Lab Testing &amp; Crossmatch</a></li>
+            <li><a href="gallery.html">Photo &amp; Video Gallery</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading" data-i18n="footer_contact_info">Contact Information</h4>
+          <div class="footer-contact-item">
+            <i data-lucide="map-pin"></i>
+            <span>3rd Floor, Mahalaxmi Tower, Bhosari, Pune – 411039</span>
+          </div>
+          <div class="footer-contact-item">
+            <i data-lucide="phone"></i>
+            <div>
+              <a href="tel:+917756873333">+91 77568 73333</a><br>
+              <a href="tel:+918803104104">+91 88031 04104</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i data-lucide="mail"></i>
+            <a href="mailto:pransanjeevanibb@gmail.com">pransanjeevanibb@gmail.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <i data-lucide="shield"></i>
+            <span style="font-size: 0.8rem;">Licence: BBF28C2024MH000016</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-regulatory">
+        <strong>Official Regulatory Information:</strong>
+        <p style="margin: 0.35rem 0;">
+          Sanjeevani Blood Centre operates under the statutory regulatory oversight of the Food and Drug Administration (FDA) Maharashtra and applicable provisions of the Drugs and Cosmetics Act.
+        </p>
+        <div class="regulatory-badges">
+          <span class="reg-badge">Licence No: BBF28C2024MH000016</span>
+          <span class="reg-badge">FDA Amendment: PCL2025MH00008</span>
+          <span class="reg-badge">App Ref: MH/PA/2025/00059</span>
+          <span class="reg-badge">Effective: 4 Nov 2025</span>
+        </div>
+      </div>
+
+            <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          &copy; 2019 – 2026 Sanjeevani Blood Centre, Pune. <span data-i18n="footer_rights">All rights reserved.</span>
+        </div>
+        <div class="footer-credits">
+          Designed by <a href="https://brandcore.co.in" target="_blank" rel="noopener noreferrer">Brandcore</a> &bull; Developed by <a href="https://bycodingtantra.com" target="_blank" rel="noopener noreferrer">Coding Tantra</a>
+        </div>
+        <div class="footer-legal-links">
+          <a href="privacy-policy.html" data-i18n="nav_privacy">Privacy Policy</a>
+          <a href="contact.html" data-i18n="nav_contact">Contact Us</a>
+          <a href="faqs.html">Donor Guidelines</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button type="button" class="back-to-top" id="backToTop" aria-label="Scroll back to top">
+    <i data-lucide="arrow-up" style="width: 20px; height: 20px;"></i>
+  </button>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/navigation.js"></script>
+  <script src="assets/js/components.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

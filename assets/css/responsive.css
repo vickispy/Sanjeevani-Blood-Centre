@@ -1,0 +1,201 @@
+/* ==========================================================================
+   SANJEEVANI BLOOD CENTRE — RESPONSIVE DESIGN BREAKPOINTS
+   Mobile-First Refinement & Cross-Device Ergonomics
+   ========================================================================== */
+
+/* Laptops & Standard Monitors (1025px - 1240px) — Prevent Header Overcrowding */
+@media (max-width: 1240px) and (min-width: 1025px) {
+  .nav-link {
+    padding: 0.45rem 0.5rem;
+    font-size: 0.85rem;
+  }
+  
+  .btn-header-camp {
+    display: none; /* Keep primary Donate Blood prominent to guarantee perfect alignment */
+  }
+
+  .site-logo {
+    height: 42px;
+  }
+}
+
+/* Large Tablets & Small Laptops (<= 1024px) */
+@media (max-width: 1024px) {
+  .main-nav {
+    display: none; /* Collapses into mobile drawer */
+  }
+
+  .mobile-nav-toggle {
+    display: inline-flex;
+  }
+
+  .header-actions .btn-header-camp {
+    display: none;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-xl);
+  }
+
+  .journey-track {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr !important;
+    text-align: center;
+  }
+
+  .hero-cta-group {
+    justify-content: center;
+  }
+
+  .section-header-left {
+    text-align: center;
+  }
+}
+
+/* Tablets (<= 768px) */
+@media (max-width: 768px) {
+  .top-bar-inner {
+    flex-direction: column;
+    gap: 0.35rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .top-bar-left {
+    justify-content: center;
+    font-size: 0.72rem;
+  }
+
+  .top-bar-right {
+    justify-content: center;
+    gap: var(--space-md);
+  }
+
+  .header-inner {
+    height: 64px;
+  }
+
+  .site-logo {
+    height: 40px;
+  }
+
+  .section {
+    padding-top: var(--space-2xl);
+    padding-bottom: var(--space-2xl);
+  }
+
+  .page-hero {
+    padding: var(--space-2xl) 0 var(--space-xl);
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.85rem;
+  }
+
+  .footer-legal-links {
+    justify-content: center;
+  }
+
+  .journey-track {
+    grid-template-columns: 1fr;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-tabs {
+    gap: 0.35rem;
+  }
+
+  .filter-btn {
+    padding: 0.4rem 0.85rem;
+    font-size: var(--font-size-xs);
+  }
+}
+
+/* Mobile Screens (<= 576px) */
+@media (max-width: 576px) {
+  .top-bar-left {
+    display: none; /* Keep mobile top bar clean and sleek */
+  }
+
+  .top-bar-right {
+    width: 100%;
+    justify-content: space-between;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  .header-actions .btn-header-donate {
+    display: none; /* Clean uncluttered mobile header; Donate CTA is in hero and drawer */
+  }
+
+  .site-logo {
+    height: 38px;
+  }
+}
+
+/* Mobile Screens (<= 480px) */
+@media (max-width: 480px) {
+  :root {
+    --container-pad: 1rem;
+  }
+
+  .site-logo {
+    height: 36px;
+  }
+
+  .btn {
+    padding: 0.65rem 1.1rem;
+    font-size: 0.875rem;
+  }
+
+  .btn-lg {
+    padding: 0.75rem 1.4rem;
+    font-size: 0.95rem;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-cta-group .btn {
+    width: 100%;
+  }
+
+  .blood-bag-card {
+    width: 220px;
+    height: 330px;
+  }
+
+  .stat-card {
+    padding: 1.25rem 1rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-legal-links {
+    justify-content: center;
+  }
+
+  .lightbox-nav {
+    display: none;
+  }
+}
